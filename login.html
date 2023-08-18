@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>login</title>
   <!-- reset -->
-  <link href="./css/reset.css" rel="stylesheet" type="text/css">
+  <link href="./page/css/reset.css" rel="stylesheet" type="text/css">
   <!-- Login -->
-  <link href="./css/login.css" rel="stylesheet" type="text/css">
+  <link href="./page/css/login.css" rel="stylesheet" type="text/css">
   <!-- 구글폰트 -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:600" rel="stylesheet">
   <!-- 제이쿼리 -->
@@ -36,7 +36,7 @@
     <header>
       <h1>
         <a href="index.html" title="메인페이지로 바로가기">
-          <img src="./images/logo_01.svg" alt="로고">
+          <img src="./page/images/logo_01.svg" alt="로고">
         </a>
       </h1>
     </header>
@@ -73,12 +73,12 @@
           </p>
           
           <div class="wrapper">
-            <a href="../index.html" title="login_btn" class="login_btn">로그인</a>
+            <a href="index.html" title="login_btn" class="login_btn">로그인</a>
           </div>
         </div>
 
         <div class="con02">
-          <img src="./images/QRCodeImg.jpg" alt="QR">
+          <img src="./page/images/QRCodeImg.jpg" alt="QR">
         </div>
 
         <div class="b_group">
@@ -90,16 +90,16 @@
         </div>
 
         <ul class="sns">
-          <li><a href="#" title="카카오톡 로그인"><img src="./images/kakao.png" alt=""><span>카카오톡 로그인</span></a></li>
-          <li><a href="#" title="네이버 로그인"><img src="./images/naver.png" alt=""><span>네이버 로그인</span></a></li>
-          <li><a href="#" title="구글 로그인"><img src="./images/google.png" alt=""><span>구글 로그인</span></a></li>
+          <li><a href="#" title="카카오톡 로그인"><img src="./page/images/kakao.png" alt=""><span>카카오톡 로그인</span></a></li>
+          <li><a href="#" title="네이버 로그인"><img src="./page/images/naver.png" alt=""><span>네이버 로그인</span></a></li>
+          <li><a href="#" title="구글 로그인"><img src="./page/images/google.png" alt=""><span>구글 로그인</span></a></li>
         </ul>
 
         <div id="banner"></div>
         <script>
           let banner = ['login_banner01', 'login_banner02', 'login_banner03'];
           let n = Math.floor(Math.random()*3);
-          document.getElementById('banner').innerHTML=`<a href="#" title="banner"><img src="./images/${banner[n]}.gif" alt=""></a>`;
+          document.getElementById('banner').innerHTML=`<a href="#" title="banner"><img src="./page/images/${banner[n]}.gif" alt=""></a>`;
         </script>
         <footer>
           <p>이용약관 &#124; <span>개인정보처리방침</span> &#124; 책임의 한계와 법적고지 &#124; 회원정보 고객센터</p>
