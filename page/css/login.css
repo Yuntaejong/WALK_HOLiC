@@ -1,11 +1,12 @@
 @charset "utf-8";
-*{margin: 0px;padding: 0px;}
+@import url("https://cdn.jsdelivr.net/gh/glocy/files@ba2ce5a7d3aec835386e4430c7667cca36c10848/SBAggro.css");
+
 
 body{
-    font-family: "SB aggro", arial, sans-serif;
+    font-family: 'SB Aggro';
+    font-weight: 300;
     color: #333;
     font-size: 12px;
-    font-weight: 300;
 }
 a{
     text-decoration: none;
