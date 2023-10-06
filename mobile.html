@@ -14,7 +14,6 @@
   <link rel="stylesheet" href="./mobile/css/swiper.css" type="text/css">
   <!-- Fontawesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" type="text/css">
-  <!-- JQUERY -->
   <!-- 접두사 자동으로 붙여주는 스크립트 -->
   <script src="./mobile/script/prefixfree.min.js"></script>
   <!-- 제이쿼리 라이브러리 연결 -->
@@ -438,14 +437,12 @@
     </article>
 
     <footer>
-      <div class="f_top">
-        <p><strong>개인정보 처리방침</strong></p>
-        <ul class="d-flex jcsb">
-          <li><a href="#" title="저작권 보호정책">저작권 보호정책</a></li>
-          <li><a href="#" title="영상정보처리기 운영관리방침">영상정보처리기 운영관리방침</a></li>
-          <li><a href="#" title="전자우편 무단수집거부">전자우편 무단수집거부</a></li>
-        </ul>
-      </div>
+      <ul class="d-flex jcsb">
+        <li><a href="#" title="개인정보 처리방침">개인정보 처리방침</a></li>
+        <li><a href="#" title="저작권 보호정책">저작권 보호정책</a></li>
+        <li><a href="#" title="영상정보처리기 운영관리방침">영상정보처리기 운영관리방침</a></li>
+        <li><a href="#" title="전자우편 무단수집거부">전자우편 무단수집거부</a></li>
+      </ul>
       <div class="f_middle d-flex">
         <a href="mobile.html" title="메인페이지 바로가기">
           <img src="./mobile/mimages/footer-logo.png" alt="푸터로고">
@@ -540,6 +537,7 @@
           $('#thumb3').css('z-index', 3);
           $('#thumb4').css('z-index', 4);
         }
+        return false;
       });
 
       // THEME
@@ -597,6 +595,7 @@
         } else {
           $('.add_wrap > p > i').removeClass('fa-chevron-up').addClass('fa-chevron-down');
         };
+        return false;
       })
 
       
